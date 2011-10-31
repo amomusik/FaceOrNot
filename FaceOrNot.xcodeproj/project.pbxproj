@@ -10,13 +10,12 @@
 		14AA71DC1456534600308CC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA71DB1456534600308CC1 /* UIKit.framework */; };
 		14AA71DE1456534600308CC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA71DD1456534600308CC1 /* Foundation.framework */; };
 		14AA71E01456534600308CC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA71DF1456534600308CC1 /* CoreGraphics.framework */; };
-		14AA71E61456534600308CC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14AA71E41456534600308CC1 /* InfoPlist.strings */; };
-		14AA71E81456534600308CC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA71E71456534600308CC1 /* main.m */; };
-		14AA71EC1456534600308CC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA71EB1456534600308CC1 /* AppDelegate.m */; };
-		14AA71EF1456534600308CC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA71EE1456534600308CC1 /* ViewController.m */; };
-		14AA71F21456534600308CC1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14AA71F01456534600308CC1 /* ViewController.xib */; };
-		14AA71FE1456545100308CC1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14AA71FD1456545100308CC1 /* Settings.bundle */; };
 		14AA720014565ACC00308CC1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA71FF14565ACC00308CC1 /* CoreImage.framework */; };
+		14DFE062145F4CA6008097AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DFE05F145F4CA6008097AD /* AppDelegate.m */; };
+		14DFE063145F4CA6008097AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DFE061145F4CA6008097AD /* ViewController.m */; };
+		14DFE066145F4CB8008097AD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DFE064145F4CB8008097AD /* ViewController.xib */; };
+		14DFE06D145F4CC6008097AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DFE06A145F4CC6008097AD /* main.m */; };
+		14DFE06E145F4CC6008097AD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14DFE06B145F4CC6008097AD /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,17 +23,16 @@
 		14AA71DB1456534600308CC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		14AA71DD1456534600308CC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		14AA71DF1456534600308CC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		14AA71E31456534600308CC1 /* FaceOrNot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceOrNot-Info.plist"; sourceTree = "<group>"; };
-		14AA71E51456534600308CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		14AA71E71456534600308CC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		14AA71E91456534600308CC1 /* FaceOrNot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceOrNot-Prefix.pch"; sourceTree = "<group>"; };
-		14AA71EA1456534600308CC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		14AA71EB1456534600308CC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		14AA71ED1456534600308CC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14AA71EE1456534600308CC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		14AA71F11456534600308CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		14AA71FD1456545100308CC1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		14AA71FF14565ACC00308CC1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		14DFE05E145F4CA6008097AD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FaceOrNot/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		14DFE05F145F4CA6008097AD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FaceOrNot/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		14DFE060145F4CA6008097AD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = FaceOrNot/ViewController.h; sourceTree = SOURCE_ROOT; };
+		14DFE061145F4CA6008097AD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = FaceOrNot/ViewController.m; sourceTree = SOURCE_ROOT; };
+		14DFE065145F4CB8008097AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = FaceOrNot/en.lproj/ViewController.xib; sourceTree = SOURCE_ROOT; };
+		14DFE068145F4CC6008097AD /* FaceOrNot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "FaceOrNot-Info.plist"; path = "FaceOrNot/FaceOrNot-Info.plist"; sourceTree = SOURCE_ROOT; };
+		14DFE069145F4CC6008097AD /* FaceOrNot-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FaceOrNot-Prefix.pch"; path = "FaceOrNot/FaceOrNot-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		14DFE06A145F4CC6008097AD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FaceOrNot/main.m; sourceTree = SOURCE_ROOT; };
+		14DFE06B145F4CC6008097AD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = FaceOrNot/Settings.bundle; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +81,10 @@
 		14AA71E11456534600308CC1 /* FaceOrNot */ = {
 			isa = PBXGroup;
 			children = (
-				14AA71EA1456534600308CC1 /* AppDelegate.h */,
-				14AA71EB1456534600308CC1 /* AppDelegate.m */,
-				14AA71ED1456534600308CC1 /* ViewController.h */,
-				14AA71EE1456534600308CC1 /* ViewController.m */,
-				14AA71F01456534600308CC1 /* ViewController.xib */,
+				14DFE05E145F4CA6008097AD /* AppDelegate.h */,
+				14DFE05F145F4CA6008097AD /* AppDelegate.m */,
+				14DFE060145F4CA6008097AD /* ViewController.h */,
+				14DFE061145F4CA6008097AD /* ViewController.m */,
 				14AA71E21456534600308CC1 /* Supporting Files */,
 			);
 			name = FaceOrNot;
@@ -97,11 +94,11 @@
 		14AA71E21456534600308CC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				14AA71FD1456545100308CC1 /* Settings.bundle */,
-				14AA71E31456534600308CC1 /* FaceOrNot-Info.plist */,
-				14AA71E41456534600308CC1 /* InfoPlist.strings */,
-				14AA71E71456534600308CC1 /* main.m */,
-				14AA71E91456534600308CC1 /* FaceOrNot-Prefix.pch */,
+				14DFE064145F4CB8008097AD /* ViewController.xib */,
+				14DFE068145F4CC6008097AD /* FaceOrNot-Info.plist */,
+				14DFE069145F4CC6008097AD /* FaceOrNot-Prefix.pch */,
+				14DFE06A145F4CC6008097AD /* main.m */,
+				14DFE06B145F4CC6008097AD /* Settings.bundle */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,9 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14AA71E61456534600308CC1 /* InfoPlist.strings in Resources */,
-				14AA71F21456534600308CC1 /* ViewController.xib in Resources */,
-				14AA71FE1456545100308CC1 /* Settings.bundle in Resources */,
+				14DFE06E145F4CC6008097AD /* Settings.bundle in Resources */,
+				14DFE066145F4CB8008097AD /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,27 +165,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14AA71E81456534600308CC1 /* main.m in Sources */,
-				14AA71EC1456534600308CC1 /* AppDelegate.m in Sources */,
-				14AA71EF1456534600308CC1 /* ViewController.m in Sources */,
+				14DFE062145F4CA6008097AD /* AppDelegate.m in Sources */,
+				14DFE063145F4CA6008097AD /* ViewController.m in Sources */,
+				14DFE06D145F4CC6008097AD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		14AA71E41456534600308CC1 /* InfoPlist.strings */ = {
+		14DFE064145F4CB8008097AD /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				14AA71E51456534600308CC1 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		14AA71F01456534600308CC1 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14AA71F11456534600308CC1 /* en */,
+				14DFE065145F4CB8008097AD /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -248,8 +236,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FaceOff/FaceOrNot-Prefix.pch";
-				INFOPLIST_FILE = "FaceOff/FaceOrNot-Info.plist";
+				GCC_PREFIX_HEADER = "FaceOrNot/FaceOrNot-Prefix.pch";
+				INFOPLIST_FILE = "FaceOrNot/FaceOrNot-Info.plist";
 				PRODUCT_NAME = FaceOrNot;
 				WRAPPER_EXTENSION = app;
 			};
@@ -259,8 +247,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FaceOff/FaceOrNot-Prefix.pch";
-				INFOPLIST_FILE = "FaceOff/FaceOrNot-Info.plist";
+				GCC_PREFIX_HEADER = "FaceOrNot/FaceOrNot-Prefix.pch";
+				INFOPLIST_FILE = "FaceOrNot/FaceOrNot-Info.plist";
 				PRODUCT_NAME = FaceOrNot;
 				WRAPPER_EXTENSION = app;
 			};
