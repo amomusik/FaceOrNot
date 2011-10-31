@@ -15,6 +15,8 @@
 
 - (void)loadNextPhoto
 {
+    // yay for quick and dirty hacks!
+    
     NSString *URLString = [NSString stringWithFormat:@"https://api.singly.com/%@/Me/photos/?offset=%d&limit=%d", [self APIKey], photoIndex, 1];
     photoIndex++;
     
